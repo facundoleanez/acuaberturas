@@ -6,9 +6,9 @@ import {
     CarouselIndicators,
     CarouselCaption
   } from 'reactstrap';
-import slide1 from '../images/slide1.jpeg';
-import slide2 from '../images/slide2.jpeg';
-import slide3 from '../images/slide3.jpeg';
+import slide1 from '../images/slide1.jpg';
+import slide2 from '../images/slide2.jpg';
+import slide3 from '../images/slide3.jpg';
 
   const items = [
     {
@@ -72,8 +72,8 @@ export const MainCarousel = (props) => {
                 >
                 <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
                 {slides}
-                <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-                <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+                <CarouselControl direction="prev" directionText=" " onClickHandler={previous} />
+                <CarouselControl direction="next" directionText=" " onClickHandler={next} />
             </Carousel>
         </>
     );

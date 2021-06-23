@@ -9,10 +9,10 @@ export const NavegationBar = () => {
 
     return (
         <div>
-            <Navbar  color="white" light expand="md">
-                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+            <Navbar  color="white" light expand="sm" className="justify-content-end">
+                <NavbarToggler onClick={toggleNavbar} />
                 <Collapse isOpen={!collapsed} navbar>
-                    <Nav navbar className="container">  
+                    <Nav navbar className="container justify-content-between">  
                     
                         <NavItem ><NavLink>Nosotros</NavLink></NavItem>
                         <NavItem><NavLink>Productos</NavLink></NavItem>
