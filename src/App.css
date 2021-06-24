@@ -19,6 +19,7 @@ hr {
   right: 9px;
   z-index: -1;
   margin-bottom: 5%;
+  filter: drop-shadow(0 0 15px rgb(0, 0, 0, 1));
 }
 .nav-item {
   font-size: 1.6rem;
@@ -41,7 +42,8 @@ hr {
   border-radius: 50%;
   width: 15%;
   height: auto;
-  z-index: 1;
+  z-index: 2;
+  filter: drop-shadow(0 0 15px rgb(0, 0, 0, 0.3));
 
 }
 
@@ -52,11 +54,19 @@ hr {
 .text-tag {
   background-color: rgba(17, 77, 114, 0.507);
   /* padding: 2rem; */
-  /* margin-top: 30%; */
-  /* margin-right: 15%; */
+  /* margin-top: 30%;
+  margin-left: 15%; */
+
 }
 
 .card {
   border: none;
   border-radius: 0;
+  z-index: 1;
+
+}
+
+.footer {
+
+  filter: drop-shadow(0 0 15px rgb(0, 0, 0, 0.5));
 }

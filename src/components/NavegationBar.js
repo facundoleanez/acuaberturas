@@ -14,7 +14,7 @@ export const NavegationBar = () => {
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar className="container justify-content-between">  
                     
-                        <NavItem ><NavLink>Nosotros</NavLink></NavItem>
+                        <NavItem ><NavLink href="#scrollspyAbout">Nosotros</NavLink></NavItem>
                         <NavItem><NavLink>Productos</NavLink></NavItem>
                         <NavItem><NavLink>Servicios</NavLink></NavItem>
                         <NavItem><NavLink>Obras</NavLink></NavItem>

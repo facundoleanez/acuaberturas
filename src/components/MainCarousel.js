@@ -75,6 +75,7 @@ export const MainCarousel = (props) => {
                 <CarouselControl direction="prev" directionText=" " onClickHandler={previous} />
                 <CarouselControl direction="next" directionText=" " onClickHandler={next} />
             </Carousel>
+            <hr id="scrollspyAbout"/>
         </>
     );
   }

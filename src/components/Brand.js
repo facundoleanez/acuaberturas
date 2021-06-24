@@ -1,5 +1,5 @@
 import React from 'react'
-import brand from '../images/brand.jpeg';
+import brand from '../images/brand.jpg';
 
 export const Brand = () => {
     return (
