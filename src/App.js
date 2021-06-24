@@ -1,10 +1,11 @@
 
 import { Brand } from './components/Brand';
 import { MainCarousel } from './components/MainCarousel';
-import  { NavegationBar }  from './components/NavegationBar.js';
+import { NavegationBar } from './components/NavegationBar.js';
 import { Footer } from './components/Footer.js';
-import './App.css';
 import { Nosotros } from './components/Nosotros';
+import { ProductCatNav } from './components/ProductCatNav';
+import './App.css';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       <NavegationBar/>
       <MainCarousel/>
       <Nosotros />
+
+      <ProductCatNav />
       <Footer/>
+
     </div>
   );
 }
