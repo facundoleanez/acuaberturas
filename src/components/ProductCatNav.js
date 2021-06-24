@@ -1,5 +1,5 @@
 import React, { useState }from 'react';
-
+import { ProductCard } from './ProductCard';
 
 export const ProductCatNav = () => {
     const [selectedNav, setselectedNav] = useState("ventanas");
@@ -34,10 +34,8 @@ export const ProductCatNav = () => {
 
                 </ul>
             </div>
-            <div className="card-body">
-                <h5 className="card-title">Titulo del producto</h5>
-                <p className="card-text">Descripcion general del producto. va una card con una foto arriba</p>
-
+            <div className="card-body d-flex flex-wrap justify-content-around">
+            <ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard />
             </div>
         </div>
     )
