@@ -12,6 +12,12 @@ import fantasia from '../images/products/fantasia.jpg';
 import curvo from '../images/products/curvo.jpg';
 import ahumado from '../images/products/ahumado.jpg';
 import dvh from '../images/products/dvh.jpg';
+import ibm from '../images/products/ibm.jpg';
+import piel from '../images/products/piel.jpg';
+import libro from '../images/products/libro.jpg';
+import pabrir from '../images/products/pabrir.jpg';
+import pcorrediza from '../images/products/pcorrediza.jpg';
+import templada from '../images/products/templada.jpg';
 
 const productsData = [
     {
@@ -71,11 +77,32 @@ const productsData = [
         src : ventiluz,
     },
     {
-        id : "p",
+        id : "p1",
         category : "puerta",
-        title : "",
-        description : "",
-        src : fija,
+        title : "Puerta Libro",
+        description : "Permite una abertura de un 100% ayudando a la ventilación del local. Es una buena opción para conectar espacios",
+        src : libro,
+    },
+    {
+        id : "p2",
+        category : "puerta",
+        title : "Puerta de Abrir",
+        description : "Puerta de tipo estandar. La más elegida por la gente. Se puede utilizar en todo tipo de espacios y siempre queda bien",
+        src : pabrir,
+    },
+    {
+        id : "p3",
+        category : "puerta",
+        title : "Puerta Corrediza",
+        description : "Ahorra espacio. Ideal para colocar mosquiteros o rejas exteriores. Proporciona mejores vistas. La apertura es del 50% ya que una parte permanece fija.",
+        src : pcorrediza,
+    },
+    {
+        id : "p4",
+        category : "puerta",
+        title : "Puerta Templada",
+        description : "Puerta ideal para locales comerciales, oficinas, consultorios. Muy segura y resistente. De diseño corporativo e inovador",
+        src : templada,
     },
     {
         id : "g1",
@@ -121,11 +148,18 @@ const productsData = [
     },
 
     {
-        id : "m",
+        id : "m1",
         category : "muro",
-        title : "",
-        description : "",
-        src : fija,
+        title : "Sistema IBM",
+        description : " Diseño comercial por excelencia. Permite acentuar la horizontalidad o verticalidad según el proyecto. Proporciona mejores vistas. Crea un diseño moderno y atractivo",
+        src : ibm,
+    },
+    {
+        id : "m2",
+        category : "muro",
+        title : "Sistema Piel de Vidrio",
+        description : "Diseño corporativo y financiero por excelencia. Permite acentuar la horizontalidad o verticalidad según el proyecto. Diseño más utilizado en todo el país",
+        src : piel,
     },
     {
         id : "e",
