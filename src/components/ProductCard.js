@@ -1,19 +1,23 @@
 import React from 'react'
-import ventana from '../images/ventana.jpg';
+import productsData from '../data/productsData';
 
-export const ProductCard = () => {
+export const ProductCard = ( {selectedNav} ) => {
+    console.log(selectedNav)
     return (
-        <div className="card m-1" style={{width: "18rem"}}>
-            <img src={ventana} class="card-img-top" alt="..." />
-            <div className="card-body">
-                <h5 className="card-title">Ventana guillotina</h5>
-                <p className="card-text">- Ideal para espacios reducidos.
-- Ideal para habitaciones que 
-necesiten buena ventilación.
-- Recomendable para baño, cocina,
-oficinas, etc</p>
-            </div>
-        </div>
-      
+        <>
+        {
+            productsData.filter( (products) => products.category === selectedNav ).map( (products) => {
+                return (
+                <div className="card m-1" style={{width: "18rem"}} key={products.id}>
+                    <img src={products.src} className="card-img-top" alt={products.alt} />
+                    <div className="card-body">
+                        <h5 className="card-title">{products.title}</h5>
+                        <p className="card-text">{products.description}</p>
+                    </div>
+                </div>
+                )
+                })
+        }
+      </>
     )
 }

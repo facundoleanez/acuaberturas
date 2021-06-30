@@ -2,7 +2,7 @@ import React, { useState }from 'react';
 import { ProductCard } from './ProductCard';
 
 export const ProductCatNav = () => {
-    const [selectedNav, setselectedNav] = useState("ventanas");
+    const [selectedNav, setselectedNav] = useState("ventana");
     const handleClick = (item) => {
         setselectedNav(item)
     }
@@ -35,7 +35,7 @@ export const ProductCatNav = () => {
                 </ul>
             </div>
             <div className="card-body d-flex flex-wrap justify-content-around">
-            <ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard /><ProductCard />
+            <ProductCard selectedNav={selectedNav}/>
             </div>
         </div>
     )
