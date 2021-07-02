@@ -5,6 +5,7 @@ import { NavegationBar } from './components/NavegationBar.js';
 import { Footer } from './components/Footer.js';
 import { Nosotros } from './components/Nosotros';
 import { ProductCatNav } from './components/ProductCatNav';
+import { Maps } from './components/Maps';
 import './App.css';
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
       <NavegationBar/>
       <MainCarousel/>
       <Nosotros />
-
       <ProductCatNav />
+      <Maps/>
       <Footer/>
 
     </div>
