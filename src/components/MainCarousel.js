@@ -63,19 +63,21 @@ export const MainCarousel = (props) => {
     });
   
     return (
-        <>
+        <div className="container">
+            <h1 className="display-4 text-center ">Nuestras Obras</h1>
             <Carousel
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
-                className="container main-carousel"
+                className="main-carousel"
                 >
                 <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
                 {slides}
                 <CarouselControl direction="prev" directionText=" " onClickHandler={previous} />
                 <CarouselControl direction="next" directionText=" " onClickHandler={next} />
+                
             </Carousel>
             <hr id="scrollspyAbout"/>
-        </>
+        </div>
     );
   }

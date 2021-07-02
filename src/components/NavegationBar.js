@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Navbar, NavItem, NavLink, NavbarToggler, DropdownItem, Collapse, DropdownMenu, UncontrolledDropdown, DropdownToggle } from 'reactstrap';
-
+import footer from '../images/footer.png';
 
 export const NavegationBar = () => {
 
@@ -29,12 +29,12 @@ export const NavegationBar = () => {
 
                         <NavItem><NavLink>Servicios</NavLink></NavItem>
                         <NavItem><NavLink>Obras</NavLink></NavItem>
-                        <NavItem><NavLink>Contacto</NavLink></NavItem>
+                        <NavItem><NavLink href="#foot">Contacto</NavLink></NavItem>
 
                     </Nav>
                 </Collapse>
             </Navbar>
-            <div className="inclinado" ></div>
+            <img src={footer} alt="nav" style={{transform:"rotate(-180deg)"}} />
         </div>
     )
 }

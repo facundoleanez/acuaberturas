@@ -9,7 +9,7 @@ hr {
   margin: 4rem;
 }
 
-.inclinado {
+/* .inclinado {
   transform: rotate(-4deg);
   height: 200px;
   width: 110%;
@@ -20,7 +20,7 @@ hr {
   z-index: -1;
   margin-bottom: 5%;
   filter: drop-shadow(0 0 15px rgb(0, 0, 0, 1));
-}
+} */
 .nav-item {
   font-size: 1.6rem;
 }

@@ -8,6 +8,7 @@ export const ProductCatNav = () => {
     }
     return (
         <>
+            <h1 className="display-4 text-center mt-3 ">Productos</h1>
             <div className="card text-center container" id="nav-products">
                 <div className="card-header ">
                     <ul className="nav nav-tabs card-header-tabs">

@@ -7,7 +7,7 @@ import { ImLocation } from "react-icons/im";
 
 export const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="foot">
             <img alt="footer" src={footer} />
             <div className="bg-white" style={{borderTop: "1px solid white"}}>
                 <div className="row pb-5">
