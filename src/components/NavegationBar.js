@@ -8,11 +8,11 @@ export const NavegationBar = () => {
     const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-        <div id="scrollUp" >
-            <Navbar expand="md">
-                <NavbarToggler onClick={toggleNavbar} className="container justify-content-end mr-2" />
+        <div id="scrollUp" className="container" >
+            <Navbar expand="md" className="row">
+                <NavbarToggler onClick={toggleNavbar} className=" mr-2"/>
                 <Collapse isOpen={!collapsed} navbar>
-                    <Nav navbar className="container justify-content-end " >  
+                    <Nav navbar className="container justify-content-end" >  
                     
                         <NavItem ><NavLink href="#scrollspyAbout">NOSOTROS</NavLink></NavItem>
 
@@ -34,7 +34,7 @@ export const NavegationBar = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-            {/* <img src={footer} alt="nav" style={{transform:"rotate(-180deg)"}} /> */}
+
         </div>
     )
 }

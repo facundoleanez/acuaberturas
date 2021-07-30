@@ -1,29 +1,34 @@
 import React from 'react'
 
+
 export const NewNav = () => {
     return (
-        <div>
-            <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-                <div className="container"> 
-                    {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-                    <div className="navbar-header">
-                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
-                        <a className="navbar-brand page-scroll" href="#page-top">Touché</a> 
-                    </div>
-                        
-                        {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
-                    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#about" className="page-scroll">About</a></li>
-                            <li><a href="#restaurant-menu" className="page-scroll">Menu</a></li>
-                            <li><a href="#portfolio" className="page-scroll">Gallery</a></li>
-                            <li><a href="#team" className="page-scroll">Chefs</a></li>
-                            <li><a href="#call-reservation" className="page-scroll">Contact</a></li>
-                        </ul>
-                    </div>
-                    {/* <!-- /.navbar-collapse -->  */}
+        <nav className="navbar navbar-expand-md navbar-dark justify-content-end container">
+            <div className="container-end">
+                <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">NOSOSTROS</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">PRODCUCTOS</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">SERVICIOS</a>
+                        </li>    
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">OBRAS</a>
+                        </li> 
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">CONTACTO</a>
+                        </li> 
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+
     )
 }
