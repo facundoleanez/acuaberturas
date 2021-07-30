@@ -1,5 +1,6 @@
 body {
   background-color:#114D72;
+  font-family: 'Raleway', sans-serif;
 }
 img {
   width: 100%;
@@ -21,14 +22,11 @@ hr {
   margin-bottom: 5%;
   filter: drop-shadow(0 0 15px rgb(0, 0, 0, 1));
 } */
-.nav-item {
-  font-size: 1.6rem;
+.nav-link {
+  font-size: 1.2rem;
+  color: lightgray;
 }
-.navbar {
-  padding-left: 20%;
-  padding-top: 5%;
-  padding-right: 5%;
-}
+
 #root {
   width: 100vw;
   overflow: hidden;
@@ -71,6 +69,9 @@ hr {
   filter: drop-shadow(0 0 15px rgb(0, 0, 0, 0.5));
 }
 
-.nav-link {
-  color: #4C4C4C;
+
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 150px;
+	text-align: center;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Navbar, NavItem, NavLink, NavbarToggler, DropdownItem, Collapse, DropdownMenu, UncontrolledDropdown, DropdownToggle } from 'reactstrap';
-import footer from '../images/footer.png';
+
 
 export const NavegationBar = () => {
 
@@ -8,16 +8,16 @@ export const NavegationBar = () => {
     const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-        <div id="scrollUp">
-            <Navbar  color="white" light expand="sm" className="justify-content-end">
-                <NavbarToggler onClick={toggleNavbar} />
+        <div id="scrollUp" >
+            <Navbar expand="md">
+                <NavbarToggler onClick={toggleNavbar} className="container justify-content-end mr-2" />
                 <Collapse isOpen={!collapsed} navbar>
-                    <Nav navbar className="container justify-content-between">  
+                    <Nav navbar className="container justify-content-end " >  
                     
-                        <NavItem ><NavLink href="#scrollspyAbout">Nosotros</NavLink></NavItem>
+                        <NavItem ><NavLink href="#scrollspyAbout">NOSOTROS</NavLink></NavItem>
 
-                        <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav >Productos</DropdownToggle>
+                        <UncontrolledDropdown nav inNavbar  >
+                            <DropdownToggle nav >PRODCUCTOS</DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem>Ventanas</DropdownItem>
                                 <DropdownItem>Puertas</DropdownItem>
@@ -27,14 +27,14 @@ export const NavegationBar = () => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
 
-                        <NavItem><NavLink>Servicios</NavLink></NavItem>
-                        <NavItem><NavLink>Obras</NavLink></NavItem>
-                        <NavItem><NavLink href="#foot">Contacto</NavLink></NavItem>
+                        <NavItem><NavLink>SERVICIOS</NavLink></NavItem>
+                        <NavItem><NavLink>OBRAS</NavLink></NavItem>
+                        <NavItem><NavLink href="#foot">CONTACTO</NavLink></NavItem>
 
                     </Nav>
                 </Collapse>
             </Navbar>
-            <img src={footer} alt="nav" style={{transform:"rotate(-180deg)"}} />
+            {/* <img src={footer} alt="nav" style={{transform:"rotate(-180deg)"}} /> */}
         </div>
     )
 }
