@@ -7,7 +7,7 @@ export const ProductCatNav = () => {
         setselectedNav(item)
     }
     return (
-        <>
+        <div id="scrollProducts" className="my-5">
             <h1 className="display-4 text-center mt-3 ">Productos</h1>
             <div className="card text-center container" id="nav-products">
                 <div className="card-header ">
@@ -39,7 +39,6 @@ export const ProductCatNav = () => {
                 <ProductCard selectedNav={selectedNav}/>
                 </div>
             </div>
-            <hr/>
-        </>
+        </div>
     )
 }

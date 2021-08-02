@@ -2,7 +2,7 @@ import React from 'react'
 import productsData from '../data/productsData';
 
 export const ProductCard = ( {selectedNav} ) => {
-    console.log(selectedNav)
+
     return (
         <>
         {

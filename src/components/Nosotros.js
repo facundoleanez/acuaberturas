@@ -4,7 +4,7 @@ import {Card, CardImg, CardImgOverlay, CardTitle, CardText} from 'reactstrap';
 
 export const Nosotros = () => {
     return (
-        <div className="container" >
+        <div className="container" id="scrollAbout" >
             <h1 className="display-4 text-center mt-3 ">Nosotros</h1>
             <Card inverse>
                 <CardImg src={ nosotros } alt="Nosotros" />

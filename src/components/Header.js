@@ -1,11 +1,10 @@
 import React from 'react'
-import { NavegationBar } from './NavegationBar'
 import header from '../images/header.jpg';
 import { NewNav } from './NewNav';
 
 export const Header = () => {
     return (
-        <div style={{background:"url(" + header +") no-repeat center center", backgroundSize: "cover",  }}>
+        <div style={{background:"url(" + header +") no-repeat center center", backgroundSize: "cover",  }} id="scrollUp">
 
             <NewNav/>
             <header id="header" >

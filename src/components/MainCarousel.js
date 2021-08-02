@@ -63,7 +63,7 @@ export const MainCarousel = (props) => {
     });
   
     return (
-        <div className="container">
+        <div className="container" id="scrollWorks">
             <h1 className="display-4 text-center ">Nuestras Obras</h1>
             <Carousel
                 activeIndex={activeIndex}
@@ -77,7 +77,7 @@ export const MainCarousel = (props) => {
                 <CarouselControl direction="next" directionText=" " onClickHandler={next} />
                 
             </Carousel>
-            <hr id="scrollspyAbout"/>
+
         </div>
     );
   }
