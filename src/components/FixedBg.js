@@ -5,7 +5,7 @@ import fixed from '../images/fixed.jpg';
 export const FixedBg = () => {
     return (
 
-            <div className="text-center"
+            <div className="text-center my-5"
             style={{
                 color: "#d0eaff",
                 background: "#444 url("+fixed+") center top no-repeat fixed",

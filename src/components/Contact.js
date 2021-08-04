@@ -2,11 +2,11 @@ import React from 'react'
 
 export const Contact = () => {
     return (
-        <div id="scrollContact" className="text-center " style={{color:"#d0eaff"}}>
+        <div id="scrollContact" className="text-center mb-5 " style={{color:"#d0eaff"}}>
             <div className="container">
-                <div className="section-title text-center">
+                <div className="row section-title text-center justify-content-center">
+                    <hr style={{border:"4px solid #d0eaff", width:"200px", margin:"40px 0" }}/>
                     <h2>Contáctanos</h2>
-
                     <p>Dejanos un mensaje con tu consulta y un representate se comunicara a la brevedad.</p>
                 </div>
                 <div className="row justify-content-center">
@@ -30,7 +30,7 @@ export const Contact = () => {
                                 <textarea name="message" id="message" className="form-control" rows="4" placeholder="Mensage" required></textarea>
                                 <p className="help-block text-danger"></p>
                             </div>
-                            <button type="submit" className="btn btn-primary btn-lg">Enviar Mensaje</button>
+                            <button type="submit" className="btn btn-secondary btn-lg col-12">Enviar Mensaje</button>
                         </form>
                     </div>
                 </div>

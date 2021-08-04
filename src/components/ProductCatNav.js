@@ -8,9 +8,9 @@ export const ProductCatNav = () => {
     }
     return (
         <div id="scrollProducts" className="my-5">
-            <h1 className="display-4 text-center mt-3 ">Productos</h1>
             <div className="card text-center container" id="nav-products">
                 <div className="card-header ">
+                    <h2 style={{color:"GrayText"}} className=" text-center mt-3">PRODUCTOS</h2>
                     <ul className="nav nav-tabs card-header-tabs">
                         <li className="nav-item" >
                             <a onClick={() => handleClick("ventana")}

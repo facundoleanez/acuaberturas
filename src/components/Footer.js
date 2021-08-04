@@ -11,7 +11,7 @@ export const Footer = () => {
             <img alt="footer" src={footer} />
             <div className="bg-white" style={{borderTop: "1px solid white"}}>
                 <div className="row pb-5">
-                    <div className="col-12 col-sm-6 d-flex justify-content-center pb-3 pb-sm-0">
+                    <div className="col-12 col-sm-6 d-flex justify-content-center pb-3 pb-sm-0" style={{color:"GrayText"}}>
                         <a href="https://www.facebook.com/acuberturas/">
                         <FaFacebook className="display-1"/>
                         </a>

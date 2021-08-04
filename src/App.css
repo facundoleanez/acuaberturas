@@ -7,9 +7,6 @@ img {
   width: 100%;
   height: auto;
 }
-hr{
-  margin: 50px;
-}
 
 
 
@@ -77,4 +74,8 @@ header .intro-text {
 	padding-top: 250px;
 	padding-bottom: 150px;
 	text-align: center;
+}
+
+.border-lightblue{
+  border-color: #d0eaff !important;
 }

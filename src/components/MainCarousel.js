@@ -64,7 +64,7 @@ export const MainCarousel = (props) => {
   
     return (
         <div className="container" id="scrollWorks">
-            <h1 className="display-4 text-center ">Nuestras Obras</h1>
+            <h2 className="text-center my-5" style={{color:"#d0eaff"}}>NUESTRAS OBRAS</h2>
             <Carousel
                 activeIndex={activeIndex}
                 next={next}
