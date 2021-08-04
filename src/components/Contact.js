@@ -1,6 +1,13 @@
-import React from 'react'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_jru98yc', 'template_ie7osem', e.target, 'user_kNqttFWtfqLvC8G4QTq4B')
+        e.target.reset();
+        alert("Mensaje enviado exitosamente")
+    }
     return (
         <div id="scrollContact" className="text-center mb-5 " style={{color:"#d0eaff"}}>
             <div className="container">
@@ -11,26 +18,27 @@ export const Contact = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-8 " >
-                        <form name="sentMessage" id="contactForm" noValidate>
+                        <form className="contact-form" onSubmit={sendEmail}>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input type="text" id="name" className="form-control" placeholder="Nombre" required="required"/>
+                                        <input type="hidden" name="contact_number"/>
+                                        <input type="text" name="user_name" className="form-control" placeholder="Nombre" required="required"/>
                                         <p className="help-block text-danger"></p>
                                     </div>
                                 </div>
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <input type="email" id="email" className="form-control" placeholder="E-mail" required="required"/>
+                                    <input type="email" name="user_email" className="form-control" placeholder="E-mail" required="required"/>
                                     <p className="help-block text-danger"></p>
                                 </div>
                             </div>
                             </div>
                             <div className="form-group">
-                                <textarea name="message" id="message" className="form-control" rows="4" placeholder="Mensage" required></textarea>
+                                <textarea name="message" className="form-control" rows="4" placeholder="Mensage" required id="mensaje"></textarea>
                                 <p className="help-block text-danger"></p>
                             </div>
-                            <button type="submit" className="btn btn-secondary btn-lg col-12">Enviar Mensaje</button>
+                            <button type="submit" value="send" className="btn btn-secondary btn-lg col-12">Enviar Mensaje</button>
                         </form>
                     </div>
                 </div>

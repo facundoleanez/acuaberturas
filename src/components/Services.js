@@ -3,7 +3,7 @@ import {GiPencilRuler, GiDrill} from 'react-icons/gi';
 import {AiOutlineCalculator} from 'react-icons/ai';
 export const Services = () => {
     return (
-        <div className="container text-center" style={{color:"#d0eaff"}}>
+        <div className="container text-center" style={{color:"#d0eaff"}} id="scrollServices">
             <div className="row justify-content-center">
                 <div className="col-10 col-sm-5 col-md-3  m-4">
                     <GiPencilRuler size="100" className="border-lightblue m-3 rounded-circle border border-5 p-2"/>

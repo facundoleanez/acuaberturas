@@ -13,6 +13,9 @@ export const ProductCard = ( {selectedNav} ) => {
                     <div className="card-body">
                         <h5 className="card-title">{products.title}</h5>
                         <p className="card-text">{products.description}</p>
+                        <a href="#scrollContact">
+                                        <button className="btn btn-secondary m-3">Pedí tu presupuesto</button>
+                        </a>
                     </div>
                 </div>
                 )

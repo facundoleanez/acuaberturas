@@ -4,7 +4,8 @@ import { NewNav } from './NewNav';
 
 export const Header = () => {
     return (
-        <div style={{background:"url(" + header +") no-repeat center center", backgroundSize: "cover",  }} id="scrollUp">
+        <div className="mb-5"
+        style={{background:"url(" + header +") no-repeat center center", backgroundSize: "cover",  }} id="scrollUp">
 
             <NewNav/>
             <header id="header" >
@@ -12,10 +13,12 @@ export const Header = () => {
                     <div className="overlay">
                         <div className="container">
                             <div className="row">
-                                <div className="intro-text" >
+                                <div className="intro-text text-white-50" >
                                     <h1 style={{fontSize: "5vw"}}>Pedi tu presupuesto</h1>
-                                    <p style={{fontSize: "2vw"}} className="d-none d-sm-block"> lotem itsum alsdinbvcwnoa asnd oansodjaosndown oasd</p>
-                                    <button className="btn btn-primary m-3">CONTACTANOS AHORA</button>
+                                    <p style={{fontSize: "2vw"}} className="d-none d-sm-block">Todo tipo de aberturas de aluminio</p>
+                                    <a href="#scrollContact">
+                                        <button className="btn btn-secondary m-3">CONTACTANOS AHORA</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
