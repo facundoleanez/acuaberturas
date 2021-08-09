@@ -8,6 +8,7 @@ import { Contact } from './components/Contact';
 import { FixedBg } from './components/FixedBg';
 import { Services } from './components/Services';
 import './App.css';
+import { Logos } from './components/Logos';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       
       <FixedBg/>
       <MainCarousel/>
+      <Logos/>
       <Contact/>
       <Footer/>
     </div>

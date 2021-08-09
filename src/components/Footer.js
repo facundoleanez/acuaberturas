@@ -23,7 +23,7 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className="col-12 col-sm-6 px-5" style={{color:"GrayText"}}>
-                        <p><GrMail/> acuaberturas@gmail.com</p>
+                        <p><GrMail/> presupuestos@acuaberturas.com</p>
                         <p><ImLocation /> Radio El Esquel N° 2948 B°Intersindical - Salta - Argentina</p>
                     </div>
                 </div>

@@ -14,17 +14,20 @@ import slide3 from '../images/slide3.jpg';
     {
         src: slide1,
         altText: 'Slide 1',
-        caption: 'Proyectos Puertas y ventanas'
+        caption: 'Proyectos Puertas y ventanas',
+        captionText: 'algo descriptivo'
     },
     {
         src: slide2,
         altText: 'Slide 2',
-        caption: 'Muros Cortinas'
+        caption: 'Muros Cortinas',
+        captionText: 'algo descriptivo'
     },
     {
         src: slide3,
         altText: 'Slide 3',
-        caption: 'Aberturas Especiales'
+        caption: 'Aberturas Especiales',
+        captionText: 'algo descriptivo'
     }
   ];
 
@@ -57,7 +60,7 @@ export const MainCarousel = (props) => {
                 key={item.altText}
                 >
                 <img src={item.src} alt={item.altText} />
-                <CarouselCaption captionText="nada aun" captionHeader={item.caption} />
+                <CarouselCaption captionText={item.captionText} captionHeader={item.caption} />
             </CarouselItem>
       );
     });

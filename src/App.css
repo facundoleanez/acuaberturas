@@ -1,14 +1,17 @@
 body {
   background-color:#114D72;
   font-family: 'Raleway', sans-serif;
-  
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 img {
   width: 100%;
   height: auto;
 }
 
-
+#scrollServices {
+  scroll-snap-align: start;
+}
 
 /* .inclinado {
   transform: rotate(-4deg);
@@ -28,7 +31,6 @@ img {
 }
 
 #root {
-  width: 100vw;
   overflow: hidden;
 }
 
@@ -57,12 +59,6 @@ img {
 
 }
 
-/* .card {
-  border: none;
-  border-radius: 0;
-  z-index: 1;
-
-} */
 
 .footer {
 
