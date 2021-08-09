@@ -11,13 +11,13 @@ export const NewNav = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#scrollAbout">NOSOSTROS</a>
+                            <a className="nav-link" aria-current="page" href="#scrollAbout">NOSOTROS</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#scrollServices">SERVICIOS</a>
                         </li>    
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#scrollProducts">PRODCUCTOS</a>
+                            <a className="nav-link" aria-current="page" href="#scrollProducts">PRODUCTOS</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#scrollWorks">OBRAS</a>

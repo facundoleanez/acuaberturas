@@ -17,7 +17,11 @@ export const Header = () => {
                                     <h1 style={{fontSize: "5vw"}}>Pedi tu presupuesto</h1>
                                     <p style={{fontSize: "2vw"}} className="d-none d-sm-block">Todo tipo de aberturas de aluminio</p>
                                     <a href="#scrollContact">
-                                        <button className="btn btn-secondary m-3">CONTACTANOS AHORA</button>
+                                        <button className="btn btn-secondary m-3">CONTÁCTANOS AHORA</button>
+                                    </a>
+                                    <br/>
+                                    <a href='/static/catalogo.pdf' download="Catalogo Acuña Aberturas">
+                                        <button className="btn btn-secondary m-3">DESCARGÁ EL CATÁLOGO</button>
                                     </a>
                                 </div>
                             </div>

@@ -1,9 +1,7 @@
-import guillotina from '../images/products/guillotina.jpg';
 import abrir from '../images/products/abrir.jpg';
 import corrediza from '../images/products/corrediza.jpg';
 import fija from '../images/products/fija.jpg';
 import oscilobatiente from '../images/products/oscilobatiente.jpg';
-import plegadiza from '../images/products/plegadiza.jpg';
 import bandolera from '../images/products/bandolera.jpg';
 import ventiluz from '../images/products/ventiluz.jpg';
 import stopsol from '../images/products/stopsol.jpg';
@@ -14,7 +12,6 @@ import ahumado from '../images/products/ahumado.jpg';
 import dvh from '../images/products/dvh.jpg';
 import ibm from '../images/products/ibm.jpg';
 import piel from '../images/products/piel.jpg';
-import libro from '../images/products/libro.jpg';
 import pabrir from '../images/products/pabrir.jpg';
 import pcorrediza from '../images/products/pcorrediza.jpg';
 import templada from '../images/products/templada.jpg';
@@ -23,9 +20,9 @@ const productsData = [
     {
         id : "v1",
         category : "ventana",
-        title : "Ventana Guillotina",
-        description : "Ideal para espacios reducidos. Ideal para habitaciones que necesiten buena ventilación. Recomendable para baño, cocina, oficinas, etc",
-        src : guillotina,
+        title : "Ventana Desplazable",
+        description : " algo algo algo",
+        src : abrir,
     },
     {
         id : "v2",
@@ -49,13 +46,6 @@ const productsData = [
         src : fija,
     },
     {
-        id : "v5",
-        category : "ventana",
-        title : "Ventana Plegadiza",
-        description : "Permiten excelente ventilación sin un ángulo de apertura. Ideal para cocinas, sobre mesadas.",
-        src : plegadiza,
-    },
-    {
         id : "v6",
         category : "ventana",
         title : "Ventana Oscilobatiente",
@@ -75,13 +65,6 @@ const productsData = [
         title : "Ventiluz",
         description : " Prácticas. Hoja rebatible. Ideal para baños y cocinas",
         src : ventiluz,
-    },
-    {
-        id : "p1",
-        category : "puerta",
-        title : "Puerta Libro",
-        description : "Permite una abertura de un 100% ayudando a la ventilación del local. Es una buena opción para conectar espacios",
-        src : libro,
     },
     {
         id : "p2",
@@ -160,13 +143,6 @@ const productsData = [
         title : "Sistema Piel de Vidrio",
         description : "Diseño corporativo y financiero por excelencia. Permite acentuar la horizontalidad o verticalidad según el proyecto. Diseño más utilizado en todo el país",
         src : piel,
-    },
-    {
-        id : "e",
-        category : "especial",
-        title : "",
-        description : "",
-        src : fija,
     },
 ]
 export default productsData;

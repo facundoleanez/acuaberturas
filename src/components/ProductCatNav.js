@@ -28,11 +28,6 @@ export const ProductCatNav = () => {
                             <a onClick={() => handleClick("muro")}
                             className={selectedNav === "muro" ? "nav-link active" : "nav-link "} href="#nav-products">Muro Cortina</a>
                         </li>
-                        <li className="nav-item">
-                            <a onClick={() => handleClick("especial")}
-                            className={selectedNav === "especial" ? "nav-link active" : "nav-link "} href="#nav-products">Especiales</a>
-                        </li>
-
                     </ul>
                 </div>
                 <div className="card-body d-flex flex-wrap justify-content-around">
