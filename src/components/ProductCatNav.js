@@ -1,4 +1,5 @@
 import React, { useState }from 'react';
+import { Lines } from './Lines';
 import { ProductCard } from './ProductCard';
 
 export const ProductCatNav = () => {
@@ -8,7 +9,10 @@ export const ProductCatNav = () => {
     }
     return (
         <div id="scrollProducts" className="my-5">
+           
             <div className="card text-center container" id="nav-products">
+            <h2 style={{color:"GrayText"}} className=" text-center mt-3">NUESTRAS LINEAS</h2>
+            <Lines/>
                 <div className="card-header ">
                     <h2 style={{color:"GrayText"}} className=" text-center mt-3">PRODUCTOS</h2>
                     <ul className="nav nav-tabs card-header-tabs">

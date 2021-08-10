@@ -15,14 +15,15 @@ import piel from '../images/products/piel.jpg';
 import pabrir from '../images/products/pabrir.jpg';
 import pcorrediza from '../images/products/pcorrediza.jpg';
 import templada from '../images/products/templada.jpg';
+import desplazable from '../images/products/desplazable.jpg';
 
 const productsData = [
     {
         id : "v1",
         category : "ventana",
         title : "Ventana Desplazable",
-        description : " algo algo algo",
-        src : abrir,
+        description : "Este tipo de ventanas es utilizada en lugares donde no queremos perder espacio, ya que se abre hacia afuera, la diferencia con la ventana ventiluz es que cuenta con brazos metálicos, los cuales aumentan su apertura a más del doble",
+        src : desplazable,
     },
     {
         id : "v2",
