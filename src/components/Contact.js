@@ -1,13 +1,7 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+import {sendEmail} from '../utils/globalFx'
 
 export const Contact = () => {
-    function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm('service_jru98yc', 'template_ie7osem', e.target, 'user_kNqttFWtfqLvC8G4QTq4B')
-        e.target.reset();
-        alert("Mensaje enviado exitosamente")
-    }
     return (
         <div id="scrollContact" className="text-center mb-5 " style={{color:"#d0eaff"}}>
             <div className="container">

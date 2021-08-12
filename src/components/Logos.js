@@ -7,7 +7,7 @@ import logo5 from '../images/logo5.png';
 
 export const Logos = () => {
     return (
-        <div className="container text-center my-5" >
+        <div className="container text-center my-5 d-none d-sm-block" >
             <div className="row justify-content-center">
                 <div className="col-2">
                     <img src={logo1} alt="logo marcas" style={{height:"100px", width:"auto"}}/>

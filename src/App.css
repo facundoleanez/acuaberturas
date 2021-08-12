@@ -42,7 +42,7 @@ img {
   border-radius: 50%;
   width: 15%;
   height: auto;
-  z-index: 2;
+  z-index: 4;
   filter: drop-shadow(0 0 15px rgb(0, 0, 0, 0.3));
 
 }

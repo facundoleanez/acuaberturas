@@ -1,6 +1,7 @@
 import React from 'react'
 import header from '../images/header.jpg';
 import { NewNav } from './NewNav';
+import { WorkUs } from './WorkUs';
 
 export const Header = () => {
     return (
@@ -8,6 +9,7 @@ export const Header = () => {
         style={{background:"url(" + header +") no-repeat center center", backgroundSize: "cover", minHeight:"100vh" }} id="scrollUp">
 
             <NewNav/>
+            <WorkUs/>
             <header id="header" >
                 <div className="center text-light">
                     <div className="overlay">

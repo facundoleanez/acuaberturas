@@ -6,32 +6,10 @@ import {
     CarouselIndicators,
     CarouselCaption
   } from 'reactstrap';
-import slide1 from '../images/slide1.jpg';
-import slide2 from '../images/slide2.jpg';
-import slide3 from '../images/slide3.jpg';
-
-  const items = [
-    {
-        src: slide1,
-        altText: 'Slide 1',
-        caption: 'Proyectos Puertas y ventanas',
-        captionText: 'algo descriptivo'
-    },
-    {
-        src: slide2,
-        altText: 'Slide 2',
-        caption: 'Muros Cortinas',
-        captionText: 'algo descriptivo'
-    },
-    {
-        src: slide3,
-        altText: 'Slide 3',
-        caption: 'Aberturas Especiales',
-        captionText: 'algo descriptivo'
-    }
-  ];
+import slider from '../data/slider';
 
 export const MainCarousel = (props) => {
+    const items = slider;
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
@@ -58,9 +36,10 @@ export const MainCarousel = (props) => {
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
                 key={item.altText}
+                
                 >
                 <img src={item.src} alt={item.altText} />
-                <CarouselCaption captionText={item.captionText} captionHeader={item.caption} />
+                <CarouselCaption className="bg-secondary px-5 bg-opacity-50" captionText={item.captionText} captionHeader={item.caption} />
             </CarouselItem>
       );
     });

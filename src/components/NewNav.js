@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 export const NewNav = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark justify-content-end container animate__animated animate__backInRight">
@@ -23,7 +24,10 @@ export const NewNav = () => {
                             <a className="nav-link" href="#scrollWorks">OBRAS</a>
                         </li> 
                         <li className="nav-item">
-                            <a className="nav-link" href="#scrollContact">CONTACTO</a>
+                            <a className="nav-link" href="#scrollContact">CONSULTAS Y SUGERENCIAS</a>
+                        </li> 
+                        <li className="nav-item">
+                        <a className="nav-link btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >TRABAJA CON NOSOTROS</a>
                         </li> 
                     </ul>
                 </div>
