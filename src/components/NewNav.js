@@ -27,7 +27,7 @@ export const NewNav = () => {
                             <a className="nav-link" href="#scrollContact">CONSULTAS Y SUGERENCIAS</a>
                         </li> 
                         <li className="nav-item">
-                        <a className="nav-link btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >TRABAJA CON NOSOTROS</a>
+                            <a href="" className="nav-link btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >TRABAJA CON NOSOTROS</a>
                         </li> 
                     </ul>
                 </div>
