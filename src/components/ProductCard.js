@@ -15,10 +15,10 @@ export const ProductCard = ( {selectedNav} ) => {
                             {products.title}</h5>
                         <p className="card-text">{products.description}</p>
                         <div className="d-flex ">
-                            <p><span className="fs-5 badge bg-warning mx-1">H</span></p>
-                            <p><span className="fs-5 badge bg-success mx-1">R</span></p>
-                            <p><span className="fs-5 badge bg-danger mx-1">M</span></p>
-                            <p><span className="fs-5 badge bg-primary mx-1">+60</span></p>
+                            <p><span className="fs-5 badge bg-warning mx-1">{products.lines[0]}</span></p>
+                            <p><span className="fs-5 badge bg-success mx-1">{products.lines[1]}</span></p>
+                            <p><span className="fs-5 badge bg-danger mx-1">{products.lines[2]}</span></p>
+                            <p><span className="fs-5 badge bg-primary mx-1">{products.lines[3]}</span></p>
                         </div>
                         <a href="#scrollContact">
                                         <button className="btn btn-secondary m-3">Pedí tu presupuesto</button>

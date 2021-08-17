@@ -3,18 +3,17 @@ import { Lines } from './Lines';
 import { ProductCard } from './ProductCard';
 
 export const ProductCatNav = () => {
-    const [selectedNav, setselectedNav] = useState("ventana");
+    const [selectedNav, setselectedNav] = useState("");
     const handleClick = (item) => {
         setselectedNav(item)
     }
     return (
-        <div id="scrollProducts" className="my-5">
-           
+        <div id="scrollProducts" className="my-5">   
             <div className="card text-center container" id="nav-products">
-            <h2 style={{color:"GrayText"}} className=" text-center mt-3">NUESTRAS LINEAS</h2>
-            <Lines/>
-                <div className="card-header ">
-                    <h2 style={{color:"GrayText"}} className=" text-center mt-3">PRODUCTOS</h2>
+                <h2 style={{color:"GrayText"}} className=" text-center mt-3">NUESTRAS LINEAS</h2>
+                <Lines/>
+                <h2 style={{color:"GrayText"}} className=" text-center mt-3">PRODUCTOS</h2>
+                <div className="container d-flex justify-content-center">
                     <ul className="nav nav-tabs card-header-tabs">
                         <li className="nav-item" >
                             <a onClick={() => handleClick("ventana")}
