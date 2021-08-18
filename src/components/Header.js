@@ -17,7 +17,7 @@ export const Header = () => {
                             <div className="row animate__animated animate__pulse">
                                 <div className="intro-text text-white-50" >
                                     <h1 style={{fontSize: "5vw"}}>Pedi tu presupuesto</h1>
-                                    <p style={{fontSize: "2vw"}} className="d-none d-sm-block">Todo tipo de aberturas de aluminio</p>
+                                    <p style={{fontSize: "2vw"}} className="d-none d-sm-block">Aberturas de aluminio</p>
                                     <a href="#scrollContact">
                                         <button className="btn btn-secondary m-3">CONTÁCTANOS AHORA</button>
                                     </a>
