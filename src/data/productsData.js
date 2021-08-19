@@ -24,7 +24,7 @@ const productsData = [
         title : "Ventana Desplazable",
         description : "Este tipo de ventanas es utilizada en lugares donde no queremos perder espacio, ya que se abre hacia afuera, la diferencia con la ventana ventiluz es que cuenta con brazos metálicos, los cuales aumentan su apertura a más del doble",
         src : desplazable,
-        lines:["R","M","+60"]
+        lines:["","R","M","+60"]
     },
     {
         id : "v2",
@@ -56,7 +56,7 @@ const productsData = [
         title : "Ventana Oscilobatiente",
         description : " Prácticas y versátiles. Dos tipos de apertura: banderola (manija para arriba permite una pequeña entrada de aire) y clásica (similar a una ventana de abrir)",
         src : oscilobatiente,
-        lines:["R","M","+60"]
+        lines:["","R","M","+60"]
     },
     {
         id : "v7",
@@ -96,7 +96,7 @@ const productsData = [
         title : "Puerta Templada",
         description : "Puerta ideal para locales comerciales, oficinas, consultorios. Muy segura y resistente. De diseño corporativo e inovador",
         src : templada,
-        lines:["","","",""]
+        lines:[]
     },
     {
         id : "g1",
