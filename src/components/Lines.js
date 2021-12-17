@@ -33,7 +33,7 @@ export const Lines = () => {
                 <h2 className="accordion-header" id="headingThree">
                     <button className="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span className="fs-5 badge bg-danger mx-4">M</span>
-                        Linea Moderna
+                        Linea Modena
                     </button>
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
